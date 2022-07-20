@@ -8,7 +8,7 @@ namespace AbstractFactory
         static void Main(string[] args)
         {
             ProductManager productManager = new ProductManager(new CrossCuttingConcernsFactory1());
-            productManager.SomeOperation();
+            productManager.ApplyCrossCuttingConcerns();
         }
     }
 }

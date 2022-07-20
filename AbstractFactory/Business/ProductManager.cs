@@ -20,7 +20,7 @@ namespace AbstractFactory.Business
             _log = _factory.Logging();
         }
 
-        internal void SomeOperation()
+        internal void ApplyCrossCuttingConcerns()
         {
             _log.Log();
             _cache.Cache();
