@@ -28,7 +28,7 @@ namespace Builder.Builder
 
         public CarDto GetCarData()
         {
-            return new CarsAPI().GetCarDto();
+            return new CarsAPI().GetVipCarDto();
         }
     }
 }
