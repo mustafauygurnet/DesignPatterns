@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Instance instance = Instance.CreateInstance();
+            Product product = Product.CreateInstance();
         }
     }
 }

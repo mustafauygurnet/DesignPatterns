@@ -1,20 +1,20 @@
 ﻿namespace Singleton
 {
-    internal class Instance
+    internal class Product
     {
-        private static Instance _instance;
+        private static Product _product;
         private static readonly object _lock = new object();
-        private  Instance() {}
+        private Product() {}
 
-        internal static Instance CreateInstance()
+        internal static Product CreateInstance()
         {
             lock (_lock)
             {
-                if (_instance == null)
+                if (_product == null)
                 {
-                    _instance = new Instance();
+                    _product = new Product();
                 }
-                return _instance;
+                return _product;
             }
         }
     }
