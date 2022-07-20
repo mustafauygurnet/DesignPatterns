@@ -8,7 +8,7 @@ namespace FactoryMethod
         static void Main(string[] args)
         {
             ProductManager productManager = new ProductManager(new MemCacheFactory());
-            productManager.SomeOperation();
+            productManager.ApplyCache();
         }
     }
 }

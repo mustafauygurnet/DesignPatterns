@@ -16,7 +16,7 @@ namespace FactoryMethod.Business
             _cacheFactory = cacheFactory;
         }
 
-        public void SomeOperation()
+        public void ApplyCache()
         {
             _cacheFactory.FactoryMethod().Caching();
         }
