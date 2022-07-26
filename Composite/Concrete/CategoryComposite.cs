@@ -11,9 +11,12 @@ namespace Composite.Concrete
     internal class CategoryComposite : IComposite<ICategory>,IEnumerable<ICategory>
     {
         List<ICategory> _categories = new();
-        public void Add(ICategory entity)
+        public void Add(params ICategory[] entities)
         {
-            _categories.Add(entity);
+            foreach (var entity in entities)
+            {
+                _categories.Add(entity);
+            }
         }
 
         public IEnumerator<ICategory> GetEnumerator()
@@ -24,9 +27,12 @@ namespace Composite.Concrete
             }
         }
 
-        public void Remove(ICategory entity)
+        public void Remove(params ICategory[] entities)
         {
-            _categories.Remove(entity);
+            foreach (var entity in entities)
+            {
+                _categories.Remove(entity);
+            }
         }
 
         IEnumerator IEnumerable.GetEnumerator()

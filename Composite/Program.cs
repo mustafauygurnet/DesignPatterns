@@ -12,8 +12,7 @@ namespace Composite
             Category vegan = new Category { Name = "Vegan Hamburger" };
 
 
-            foods.Add(hamburgers);
-            foods.Add(salad);
+            foods.Add(hamburgers,salad);
 
             hamburgers.Add(vegan);
 

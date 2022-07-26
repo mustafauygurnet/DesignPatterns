@@ -8,8 +8,8 @@ namespace Composite.Abstract
 {
     internal interface IComposite<IEntity> : IEnumerable<IEntity>
     {
-        void Add(IEntity entity);
-        void Remove(IEntity entity);
+        void Add(params IEntity[] entity);
+        void Remove(params IEntity[] entity);
 
     }
 }
