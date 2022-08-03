@@ -9,6 +9,7 @@ namespace Proxy
             Image image = new Image("image.png");
             ImageProxy imageProxy = new ImageProxy("imageProxy.png");
 
+            
             image.ShowImage();
             imageProxy.ShowImage();
         }
