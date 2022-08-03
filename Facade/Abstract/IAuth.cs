@@ -8,6 +8,6 @@ namespace Facade.Abstract
 {
     internal interface IAuth
     {
-        internal void Authority();
+        public void Authority();
     }
 }
