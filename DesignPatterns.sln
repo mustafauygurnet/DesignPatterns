@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObject", "NullObject\Nu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiton", "Multiton\Multiton.csproj", "{D33CDD2E-0E15-4C90-BABA-A7C0BCBED6BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{742557BC-D336-435E-BC5D-28451DBC38BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{D33CDD2E-0E15-4C90-BABA-A7C0BCBED6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D33CDD2E-0E15-4C90-BABA-A7C0BCBED6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D33CDD2E-0E15-4C90-BABA-A7C0BCBED6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{742557BC-D336-435E-BC5D-28451DBC38BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742557BC-D336-435E-BC5D-28451DBC38BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{742557BC-D336-435E-BC5D-28451DBC38BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742557BC-D336-435E-BC5D-28451DBC38BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
