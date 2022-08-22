@@ -6,6 +6,7 @@ Design Patterns are typical solutions to commonly occurring problems in software
 
 This git project, shows you the big picture, how all these subjects intersect, work together, and are still relevant. I don’t pretend to be the inventor of these concepts—most of them were invented by others during the past 20 years. But I think that the connection between refactoring, patterns and general programming principles still remains a mystery for the majority of programmers. This is the problem I would like to solve here.
 
+
 ## What does the pattern consist of?
 Most patterns are described very formally so people can reproduce them in many contexts. Here are the sections that are usually present in a pattern description:
 
