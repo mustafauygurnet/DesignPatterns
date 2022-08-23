@@ -15,5 +15,6 @@ Most patterns are described very formally so people can reproduce them in many c
 - **Structure** of classes shows each part of the pattern and how they are related.
 - **Code example** in one of the popular programming languages makes it easier to grasp the idea behind the pattern.
 
+
 ---
 This Git Project, makes it easy for you to discover everything you need to know about, design patterns, SOLID principles, and other smart programming topics.
