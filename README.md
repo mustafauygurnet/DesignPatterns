@@ -1,6 +1,6 @@
-# Desing Patterns
+# Design Patterns
 
-![Image of Desing Patterns](https://miro.medium.com/max/1400/0*tEoy2PYBY7T95JyL.)
+![Image of Design Patterns](https://miro.medium.com/max/1400/0*tEoy2PYBY7T95JyL.)
 
 Design Patterns are typical solutions to commonly occurring problems in software design. They are blueprints that can be taken and customized to solve a particular design problem in your code.
 
